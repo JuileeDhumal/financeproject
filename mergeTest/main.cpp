@@ -2,6 +2,9 @@
 
 using namespace std;
 
+void add(int a, int b){
+    cout << a+b;
+}
 void printFibonacci(int n) {
     int t1 = 0, t2 = 1, nextTerm;
     
@@ -20,6 +23,7 @@ int main() {
     cout << "Enter the number of terms: ";
     cin >> num;
     printFibonacci(num);
+    add(10,20);
     return 0;
 }
 
